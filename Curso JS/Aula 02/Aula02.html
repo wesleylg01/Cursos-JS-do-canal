@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+</head>
+<body>
+    <h3>Dominando JS - Aula 02</h3> 
+    <label >Nome:</label> </br>
+    <input type="text" id = "nome"> </br>
+    <label >Idade:</label> </br>
+    <input type="text" id = "idade"> </br>
+
+    <input type="button" value="Ok" id="botaoOk" onclick="BoasVindas()">
+
+    <script type="text/javascript">
+        // alert("Olá Mundo")
+        function BoasVindas(){
+            var nome = document.getElementById("nome").value
+            var idade = document.getElementById("idade").value
+
+            alert ('Bem vindo '+nome+', você tem: '+idade+' anos !!')
+        }
+    </script>
+</body>
+</html>
